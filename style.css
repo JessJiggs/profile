@@ -1,0 +1,142 @@
+
+#pp {
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%
+}
+
+h1, h2, h3 {
+  font-family: 'Zeyada';
+  color: #abb5d2;
+}
+
+h1 {
+  font-size: 4.5em;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+body {
+  font-family: 'Zeyada';
+  font-size: 50%
+  color: #BAD7E9;
+  text-align: center;
+  padding: 25px;
+  letter-spacing: 2px;
+  /* background-color: #EEEEEE; */
+}
+
+li {display: inline;}
+ul {padding: 5px 10px;}
+
+a {
+  color: #567189;
+  background-color: #DDDDDD;
+  padding: 3.5px;
+  border-radius: 3.5px;
+  transition: 0.3s ease;
+}
+
+a:hover {
+  color: #F4EAD5;
+  background-color: #495579;
+}
+
+.card_container {
+  background-color: #c6d0d9;
+  padding: 60px;
+  width: 75%;
+  margin: 25px auto;
+  border-radius: 8px;
+  border: 5px solid #CFB997;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+}
+
+.card_banner {
+  background-color: #7B8FA1;
+  padding: 60px;
+  width: 65%;
+  margin: 25px auto;
+  border-radius: 8px;
+  border: 5px solid #CFB997;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+}
+
+.card_title {
+  background-color: #8f979d;
+  padding: 60px;
+  width: 60%;
+  margin: 25px auto;
+  border-radius: 8px;
+  border: 5px solid #CFB997;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+}
+
+.card_subcard {
+  background-color: #afcae2;
+  padding: 60px;
+  width: 55%;
+  margin: 25px auto;
+  border-radius: 8px;
+  border: 5px solid #CFB997;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+}
+
+#card_subcard_h3 h3 {
+  color: #1c2c3b;
+}
+
+body {
+  background-color: #d8ddd8;
+}
+@media only screen and (max-width: 1200px) {
+  body {
+    background-color: #488da4;
+  }
+@media only screen and (max-width: 900px) {
+  body {
+    background-color: #2d4c57;
+  }
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #1d292d;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+  font-family: 'Bitter';
+  font-size: 60%;
+  text-align: left;
+  padding: 10%;
+  letter-spacing: 1px;
+  background-color: #1d292d;
+  }
+  h1 {
+    font-family: 'Bitter';
+    color: #abb5d2;
+    font-size: 4.5em;
+  }
+  h2{
+    font-family: 'Bitter';
+    color: #abb5d2;
+    font-size: 3em;
+  }
+  h2{
+    font-family: 'Bitter';
+    color: #abb5d2;
+    font-size: 1.5em;
+  }
+
+
+/* font-size: x-small;  # 4vw */
+/* <div class="banner">
+<div class="card_title">
+<div class="card_subcard">
